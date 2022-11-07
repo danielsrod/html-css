@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stretch {
+    background-color: rgb(2,116,3);
+    border: none;
+    padding: 4px 8px;
+    transition: padding 0.75s, opacity 0.15s;
+    cursor: crosshair;
+    vertical-align: top;
+}
+
+.stretch:hover {
+    padding: 12px 24px;
+    opacity: 0.75;
+}
+
+.shadow {
+    background-color: rgb(2,116,3);
+    border: none;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.200);
+    vertical-align: top;
+}
+
+.shadow:active {
+    margin: 2px 0 0 2px;
+    box-shadow: none;
+}
+
+.k4 {
+    background-color: rgb(2,116,3);
+    border: none;
+    padding: 4px 8px;
+    transition: padding 0.5s;
+    margin: 0 8px;
+    transition: padding 0.15s, margin 0.15s;
+}
+
+.k4:hover {
+    padding: 4px 12px;
+    margin: 0 4px;
+}
