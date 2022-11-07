@@ -1,0 +1,27 @@
+.link-back-amazon {
+    color: rgb(0, 113, 133)
+}
+
+.price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+
+.add-cart {
+    border: none;
+    background-color: rgb(255, 216, 20);
+    color: rgb(12, 12, 12);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.buy {
+    border: none;
+    background-color: rgb(255, 164, 28);
+    color: rgb(12, 12, 12);
+    padding: 5px 30px;
+    border-radius: 15px;
+
+}
+
+
