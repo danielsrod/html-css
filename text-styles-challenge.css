@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.macbook {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.age {
+  color: rgb(204, 102, 49);
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.product {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.target_public {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 12px;
+  color: rgb(10, 10, 10);
+}
+
+.buy {
+    color: white;
+    background-color: rgb(41, 137, 226);
+    border: none;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.cotation {
+    margin-bottom: 20px;
+}
+
+.current_value {
+  font-size: 18px;
+}
+
+.currency {
+  color: gray;
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.today_status {
+  font-size: 10px;
+  color: rgb(0, 114, 0);
+}
+
+.after_hours {
+    font-size: 10px;
+    color: gray;
+}
+
+.decrease {
+    color: rgb(190, 0, 0);
+}
+
+.tweet {
+    
+}
+
+.user_time {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.user_and_time {
+    color: gray;
+}
+
+.tweet {
+    font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 10px;
+}
+
+.mention_user {
+    color: rgb(104, 183, 214);
+}
