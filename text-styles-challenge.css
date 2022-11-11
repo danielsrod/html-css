@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial;
+  font-family: Poppins;
 }
 
 .macbook {
@@ -77,7 +79,7 @@
 
 .user_time {
     font-size: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .user_and_time {
