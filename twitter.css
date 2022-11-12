@@ -80,7 +80,8 @@ a {
 }
 
 .twitter_logo:hover {
-    opacity: 0.75
+    opacity: 0.75;
+    cursor: pointer;
 }
 
 .tweet_button {
@@ -93,8 +94,41 @@ a {
 
 .tweet_button:hover {
     opacity: 0.75;
+    cursor: pointer;
 }
 
 .tweet_button:active {
     opacity: 0.5;
+}
+
+.user_account_user_profile_pic {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.user_account {
+    /* text-align: left; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    padding: 20px 20px;
+    /* background-color: white; */
+    cursor: pointer;
+}
+
+.user_account_username {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.user_account_username > span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.username_account {
+    font-weight: normal;
+    color: gray;
 }
